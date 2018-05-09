@@ -21,7 +21,7 @@ public class MongoDBJDBC {
 			System.out.println("Connect to database successfully");
 			//连接到集合
 			MongoCollection<Document> collection = mongoDatabase.getCollection("localDB");
-			System.out.println("集合 localDB 选择成功");
+			System.out.println("集合 localDB 选择成功!");
 			
 			// insert(collection);
 			find(collection);
